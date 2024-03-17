@@ -7,7 +7,7 @@ const Wrapper = ({children,justifyItems,alignItems,justifyContent,alignContent})
       container
       sx={{
         minHeight: "100vh",
-        backgroundColor: "#182631",
+        backgroundColor: "#07305C",
       }}
       justifyItems={justifyItems}
       alignItems={alignItems}

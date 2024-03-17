@@ -39,7 +39,7 @@ const Layout = () => {
 
   const drawer = (
     <div>
-      <Toolbar style={{ backgroundColor: "#182631" }}>
+      <Toolbar style={{ backgroundColor: "#0047b3" }}>
         <StyledText variant="textTitle" style={{cursor:'pointer'}} onClick={() => navigate("/")}>
           AMI Dashboard
         </StyledText>
@@ -90,7 +90,7 @@ const Layout = () => {
       </List>
       <Collapse
         in={isNavActive}
-        sx={{ backgroundColor: "#25343f", paddingLeft: 3 }}
+        sx={{ backgroundColor: "#73b9ff", paddingLeft: 3 }}
       >
         <List>
           {test.map((item, index) => {
@@ -144,7 +144,7 @@ const Layout = () => {
   return (
     <>
       {/* <Header /> */}
-      <Box sx={{ display: "flex", backgroundColor: "#203342" }}>
+      <Box sx={{ display: "flex", backgroundColor: "#ffffff" }}>
         <CssBaseline />
         <Header
           isClosing={isClosing}
@@ -161,7 +161,7 @@ const Layout = () => {
             //   container={container}
             PaperProps={{
               sx: {
-                backgroundColor: "#2a4052",
+                backgroundColor: "#0047b3",
                 color: "#fff",
               },
             }}
@@ -185,11 +185,11 @@ const Layout = () => {
           <Drawer
             PaperProps={{
               sx: {
-                backgroundColor: "#101920",
+                backgroundColor: "#0047b3",
                 color: "#fff",
               },
             }}
-            style={{ backgroundColor: "#101920" }}
+            style={{ backgroundColor: "#fff" }}
             variant="permanent"
             sx={{
               backgroundColor: "#101920",

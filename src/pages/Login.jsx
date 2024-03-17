@@ -42,10 +42,12 @@ const Login = () => {
   return (
     <Wrapper alignContent={"center"} justifyContent={"center"}>
       <RegisterContainer
+        backgroundColor={"red"}
         sx={{
           width: { xs: 320, sm: 350, md: 380 },
           height: { xs: 360, sm: 390, md: 430 },
         }}
+        
       >
         <Grid item sx={{ marginTop: { xs: 2, sm: 3, md: 5 } }}>
           <Typography variant="h4" component={"h1"} style={{ color: "#fff" }}>

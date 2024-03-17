@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 //   text-decoration: none;
 // `;
 export const StyledNavLink = styled(NavLink)(({ theme }) => ({
-  color: "#fff",
+  color: "#000",
   textDecoration:'none',
   "&.active": {
     color: "#f5b869",

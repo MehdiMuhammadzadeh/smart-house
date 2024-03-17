@@ -8,7 +8,7 @@ import { StyledText } from "../components/text/Text.styles";
 
 const Dashboard = () => {
   const arr = [
-    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    1, 2, 3, 
   ];
 
   return (
@@ -17,7 +17,7 @@ const Dashboard = () => {
         {arr.map((item, index) => {
           return (
             <Grid key={index} item xs={12} md={6} lg={3}>
-              <Box bgcolor="#353455" width="100%" height="250px">
+              <Box bgcolor="#0047b3" borderRadius={2} width="100%" height="250px">
                 <Grid item container sx={{ padding: 2 }}>
                   <Grid
                     item

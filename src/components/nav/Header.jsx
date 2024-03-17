@@ -24,7 +24,7 @@ const Header = ({ isClosing, setMobileOpen, mobileOpen }) => {
 
   return (
     <AppBar
-      style={{ backgroundColor: "#182631" }}
+      style={{ backgroundColor: "#0047b3" }}
       position="fixed"
       sx={{
         width: { sm: `calc(100% - ${drawerWidth}px)` },
